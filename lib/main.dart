@@ -2,8 +2,6 @@ import 'package:facebook_ui/config/palette.dart';
 import 'package:facebook_ui/screens/screens.dart';
 import 'package:flutter/material.dart';
 
-
-
 void main() {
   runApp(const MyApp());
 }
@@ -11,7 +9,6 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

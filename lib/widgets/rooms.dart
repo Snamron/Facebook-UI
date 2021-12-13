@@ -1,7 +1,6 @@
 import 'package:facebook_ui/config/palette.dart';
 import 'package:facebook_ui/models/models.dart';
 import 'package:facebook_ui/widgets/widgets.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class Rooms extends StatelessWidget {
