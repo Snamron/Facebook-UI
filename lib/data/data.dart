@@ -165,24 +165,14 @@ final List<Story> stories = [
 ];
 
 final List<Post> posts = [
-  const Post(
-    user: currentUser,
-    caption: 'Check out these cool puppers',
-    timeAgo: '58m',
-    imageUrl: 'https://images.unsplash.com/photo-1525253086316-d0c936c814f8',
-    likes: 1202,
-    comments: 184,
-    shares: 96,
-  ),
   Post(
-    user: onlineUsers[5],
-    caption:
-        'Please enjoy this placeholder text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-    timeAgo: '3hr',
+    user: currentUser,
+    caption: 'Check out this cool puppies!',
+    timeAgo: '15m',
     imageUrl: 'https://images.unsplash.com/photo-1525253086316-d0c936c814f8',
-    likes: 683,
-    comments: 79,
-    shares: 18,
+    likes: 1003,
+    comments: 203,
+    shares: 189,
   ),
   Post(
     user: onlineUsers[4],
@@ -219,10 +209,20 @@ final List<Post> posts = [
     user: onlineUsers[9],
     caption: 'A classic.',
     timeAgo: '1d',
-    imageUrl:
-        'https://images.unsplash.com/reserve/OlxPGKgRUaX0E1hg3b3X_Dumbo.JPG?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1525253086316-d0c936c814f8',
     likes: 1523,
     shares: 129,
     comments: 301,
+  ),
+  Post(
+    user: onlineUsers[5],
+    caption:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    timeAgo: '3hr',
+    imageUrl:
+        'https://images.unsplash.com/reserve/OlxPGKgRUaX0E1hg3b3X_Dumbo.JPG?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
+    likes: 683,
+    comments: 79,
+    shares: 18,
   )
 ];
